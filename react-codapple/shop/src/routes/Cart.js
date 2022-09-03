@@ -30,7 +30,7 @@ function Cart(){
             </thead>
             <tbody>
             {
-                state.products.map((product,i)=>
+                products.map((product,i)=>
                     <tr key={i}>
                         <td>{product.id}</td>
                         <td>{product.name}</td>

@@ -1,4 +1,4 @@
-import {configureStore, createSlice} from '@reduxjs/toolkit'
+import {configureStore, createSlice, current} from '@reduxjs/toolkit'
 //state 만들기
 let user = createSlice({
     name : 'user',
@@ -38,12 +38,7 @@ let products = createSlice({
         addCart(state, action){
             state.push(action.payload);
             console.log(action.payload)
-            state.map((p)=>{
-                console.log(p)
-            })
-            // for(let key in state){
-            //     console.log(key+" / "+state[key].name)
-            // }
+            console.log(current(state))
         }
     }
 })

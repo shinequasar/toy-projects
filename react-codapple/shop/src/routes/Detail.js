@@ -102,13 +102,15 @@ function Detail(props){
 function Product(props){
     let dispatch = useDispatch();
     let link="https://codingapple1.github.io/shop/shoes"+(Number(props.num)+1)+".jpg";
+    let copyProduct = {id:props.shoes.id, name:props.shoes.title, count:1}
     return(
       <Col className="col-bg">
           <img src={link} alt="신발사진"/>
           <h4>{props.shoes.title}</h4>
           <p>{props.shoes.price}\</p>
           <button onClick={()=>{
-            dispatch(addCart(props.shoes))
+            dispatch(addCart(copyProduct))
+            console.log(props.shoes)
           }}>구매하기</button>
       </Col>
     )
