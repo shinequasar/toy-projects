@@ -9,7 +9,13 @@
 }
 .container > h1 {
     font-family: 'Jua', sans-serif;
-    background-color: antiquewhite;
+    background-color: black;
+    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 30px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
 }
