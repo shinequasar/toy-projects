@@ -12,6 +12,7 @@
 - 직접 3D 모델링 작업한 파일을 웹에 띄우는 플젝
 - Nomad Sculpt 사용
 - Three.js 라이브러리 사용
+- 보러가기 : https://gdsc-logo.netlify.app/
 ![image](https://user-images.githubusercontent.com/40741363/188041480-55ce6a3f-1fe4-482b-bb07-182a303b0e2e.png)
 
 <p  align="center">
