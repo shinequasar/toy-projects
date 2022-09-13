@@ -31,7 +31,7 @@ function Main(props) {
         <button className="btn" onClick={()=>{
             axios.get('https://codingapple1.github.io/shop/data2.json')
                 .then((result)=>{
-                    console.log(result.data)
+                    // console.log(result.data)
                     let copyUpdate = [...update];
                     result.data.map((data)=>{
                         copyUpdate.push(data)

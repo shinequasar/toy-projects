@@ -23,8 +23,8 @@ let stock = createSlice({
 let products = createSlice({
     name : 'products',
     initialState : [
-        {id : 0, name : 'White and Black', count : 2},
-        {id : 2, name : 'Grey Yordan', count : 1}
+        {id : 0, name : '제로펩시 라임맛', count : 2},
+        {id : 2, name : '나도 맥북', count : 1}
     ],
     reducers : {
         addCount(state,action){

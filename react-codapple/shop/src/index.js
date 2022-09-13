@@ -4,7 +4,7 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import {Provider} from "react-redux";
 import store from './store'
-import {QueryClientProvider, QueryClient} from "react-query";
+import { QueryClient, QueryClientProvider, useQuery } from '@tanstack/react-query'
 
 let queryClient = new QueryClient()
 const root = ReactDOM.createRoot(document.getElementById('root'));
