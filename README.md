@@ -1,5 +1,6 @@
 # toy-projects
-- 궁금한 스택들을 빠르고 간단히 개발해보며 이해하는 토이플젝 레포 (업데이트 중)
+- React.js, 3D 모델링+웹(Three.js)
+-  궁금한 스택들을 빠르고 간단히 개발해보며 이해하는 토이플젝 레포
 
 # react-codapple
 /blog
