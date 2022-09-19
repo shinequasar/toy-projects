@@ -6,6 +6,8 @@
 /blog
 /shop
 - React.js 공부용 플젝들
+- 리액트 강의 완강
+- 리액트 구성요소 파악 및 기초 다지기용 
 
 # test-3d
 /gesc_3d
